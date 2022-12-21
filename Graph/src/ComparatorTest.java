@@ -11,7 +11,7 @@ public class ComparatorTest {
 			Flight f3 = new Flight(105,"British Airways","Mumbai","London");
 			Flight f4 = new Flight(107,"American Airlines","New York","Mumbai");
 			Flight f5 = new Flight(103,"Air craft France","Mumbai","Paris");
-			Flight f6 = new Flight(104,"Kingfisher","Mumbai","sydney");
+			
 			
 			
 			ArrayList<Flight> al = new ArrayList<Flight>();
@@ -21,7 +21,7 @@ public class ComparatorTest {
 			al.add(f3);
 			al.add(f4);
 			al.add(f5);
-			al.add(f6);
+			
 			
 			Comparator cmp = new FlightNameComparator();
 			
