@@ -10,7 +10,7 @@ public class ComparatorTest {
 			Flight f2 = new Flight(102,"Air India","Delhi","Washington");
 			Flight f3 = new Flight(105,"British Airways","Mumbai","London");
 			Flight f4 = new Flight(107,"American Airlines","New York","Mumbai");
-			Flight f5 = new Flight(103,"Air France","Mumbai","Paris");
+			Flight f5 = new Flight(103,"Air craft France","Mumbai","Paris");
 			
 			
 			ArrayList<Flight> al = new ArrayList<Flight>();
